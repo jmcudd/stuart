@@ -1,7 +1,8 @@
 <script>
-  export let description;
-  export let highlighted;
-  export let todo;
+  export let obj;
+  let description=obj.description || "Unknown";
+  let highlighted = obj.highlighted || false;
+  let todo = obj.todo || false;
 </script>
 
 <main>
